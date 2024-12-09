@@ -1,0 +1,8 @@
+old="new.txt"
+new="old.txt"
+import os
+if os.path.isfile(new):
+    print("this filename is already in the existance")
+else:
+    os.rename(old, new)
+    print("file renamed..")

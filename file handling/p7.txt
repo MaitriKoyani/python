@@ -1,0 +1,6 @@
+fe = open("new.txt", "rb")
+
+fe.seek(-3,2)
+print(fe.tell())
+print(fe.read(20).decode("utf-8"))
+fe.close()
