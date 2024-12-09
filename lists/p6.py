@@ -5,3 +5,4 @@ for i in str_list:
     if i=="" or i==None:
         str_list.remove(i)
 print("after remove empty strings:",str_list)
+#you can also visit PYnative website for more learn
